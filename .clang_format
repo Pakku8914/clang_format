@@ -1,0 +1,82 @@
+BasedOnStyle: WebKit
+AccessModifierOffset: -2
+AlignArrayOfStructures: Right
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveMacros: Consecutive
+AlignEscapedNewlines: Left
+AlignOperands: Align
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLambdasOnASingleLine: None
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+BitFieldColonSpacing: Both
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeTernaryOperators: false
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: true
+EmptyLineBeforeAccessModifier: LogicalBlock
+FixNamespaceComments: true
+IncludeBlocks: Preserve
+IndentAccessModifiers: false
+IndentCaseBlocks: true
+IndentCaseLabels: false
+IndentGotoLabels: false
+IndentPPDirectives: AfterHash
+IndentWidth: 4
+IndentWrappedFunctionNames: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+Language: Cpp
+MaxEmptyLinesToKeep: 2
+NamespaceIndentation: Inner
+PointerAlignment: Right
+ReferenceAlignment: Right
+ReflowComments: false
+ShortNamespaceLines: 1
+SortIncludes: CaseInsensitive
+SpaceAfterCStyleCast: false
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: false
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeSquareBrackets: false
+SpaceInEmptyBlock: false
+SpaceInEmptyParentheses: false
+SpacesBeforeTrailingComments: 1
+SpacesInAngles: Never
+SpacesInCStyleCastParentheses: false
+SpacesInConditionalStatement: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+Standard: c++14
+TabWidth: 4
+UseCRLF: false
+UseTab: Never
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterControlStatement: Never
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
